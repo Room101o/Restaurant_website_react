@@ -1,0 +1,110 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.about-1{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.close-video{
+    border: none;
+    background-color: transparent;
+    color: black;
+    position: relative;
+    top: 0%;
+}
+.img-about img{
+    width: 700px;
+    border-radius: 20px;
+}
+.descr-about h2{
+    color: black;
+    font-weight: 600;
+    padding-bottom: 10px;
+    font-size: 35px;
+}
+.descr-about p{
+    color: grey;
+}
+/*!Responsive Tablette and Mobile*/
+@media (min-width:320px) and (max-width:769px) {
+    .about-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .img-about img{
+        width: 100%;
+    }
+    .descr-about h2{
+        font-size: 25px;
+    }
+}
+/*^^About 2*/
+.about-2{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.img-about2 img{
+    width: 700px;
+}
+.descr-about span{
+    color: green;
+    font-size: 25px;
+    font-weight: bold;
+}
+/*!Responsive Tablette and Mobile*/
+@media (min-width:320px) and (max-width:769px) {
+    .about-2{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .img-about2 img{
+        width: 100%;
+    }
+    .descr-about h2{
+        font-size: 25px;
+    }
+}
+/*^^About3*/
+.about-3{
+    background-image: url("./../../imgs/3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 7% ;
+    padding-bottom: 7% ;
+    margin-bottom: 4%;
+    width: 100%;
+}
+.content-about{
+    text-align: center;
+}
+.content-about h1{
+    color: black;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.content-about .para{
+    color: grey;
+    margin-bottom: 7%;
+}
+.content-about .watch{
+    cursor: pointer;
+    font-weight: 500;
+    color: black;
+}
